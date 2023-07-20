@@ -1,11 +1,4 @@
-def encode(password):
-    result = ''
-    for digit in password:
-        new_digit = str((int(digit) + 3) % 10)
-        result += new_digit
-    return result
-
-
+# Abdullah Alakashi
 def decode(encoded_pass):
     decoded_pass = ''
     for digit in encoded_pass:
